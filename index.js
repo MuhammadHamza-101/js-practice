@@ -45,15 +45,15 @@
 //     'Redux',
 //     'Node',
 //     'MongoDB',
-//   ] 
-  
-//   console.log(webTechs) 
-//   console.log(webTechs.length) 
-//   console.log(webTechs[0]) 
-//   console.log(webTechs[6]) 
-  
+//   ]
+
+//   console.log(webTechs)
+//   console.log(webTechs.length)
+//   console.log(webTechs[0])
+//   console.log(webTechs[6])
+
 //   let lastIndex = webTechs.length - 1
-//   console.log(webTechs[lastIndex]) 
+//   console.log(webTechs[lastIndex])
 
 // const countries = [
 //     'Albania',
@@ -68,11 +68,11 @@
 //     'Japan',
 //     'Kenya',
 //   ] // List of countries
-  
+
 //   console.log(countries) // -> all countries in array
 //   console.log(countries[0]) //  -> Albania
 //   console.log(countries[10]) //  -> Kenya
-  
+
 //   let lastIndex = countries.length - 1
 //   console.log(countries[lastIndex]) //  -> Kenya
 
@@ -86,11 +86,11 @@
 //     'Eggs',
 //     'Sugar',
 //   ] // List of food products
-  
+
 //   console.log(shoppingCart) // -> all shoppingCart in array
 //   console.log(shoppingCart[0]) //  -> Milk
 //   console.log(shoppingCart[7]) //  -> Sugar
-  
+
 //   let lastIndex = shoppingCart.length - 1
 //   console.log(shoppingCart[lastIndex]) //  -> Sugar
 
@@ -119,3 +119,12 @@
 // countries[lastIndex] = 'Korea' // Replacing Kenya by Korea
 
 // console.log(countries)
+
+// const arr = Array(50).fill("raza")
+// console.log(arr)
+
+// const arr1 = [1, 2, 3,"-"];
+// const arr2 = [1, 2, 3,5,6,7,8,9,10];
+
+// const merge= arr1.concat(arr2)
+// console.log(merge);
