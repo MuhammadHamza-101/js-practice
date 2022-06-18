@@ -147,3 +147,165 @@
 
 // const numbers1 = "hamza"
 // console.log(Array.isArray(numbers1))
+
+// toString:Converts array to string
+
+// const conver = ["hamza", 101, true, false, { hamza: "its me" }];
+
+// console.log(conver.toString());
+
+// Joining array elements
+
+// const conver = ["hamza", 101, true, false, { hamza: "its me" }];
+// console.log(conver.join());
+
+// Slice array elements
+
+// const numbers = [1, 2, 3, 4, 5]
+
+// console.log(numbers);
+// console.log(numbers.slice(4,5));
+
+// const arr = ['item1', 'item2', 'item3']
+// const v = arr.push("hazma","salman","daniiyal")
+// console.log(arr)
+
+// const arr = [1,2,3,4,5,6,7]
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+// arr.unshift(100)
+// console.log(arr)
+
+// const arr = [1,2,3,4,5,6,7]
+// arr.reverse()
+// console.log(arr);
+
+// Array can store different data types including an array itself. Let us create an array of arrays
+
+// const firstNums = [1, 2, 3];
+// const secondNums = [1, 4, 9];
+
+// const arrayOfArray = [
+//   [1, 2, 3],
+//   [1, 2, 3],
+// ];
+// console.log(arrayOfArray[0]); // [1, 2, 3]
+
+// const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
+// const backEnd = ["Node", "Express", "MongoDB"];
+// const fullStack = [frontEnd, backEnd];
+// console.log(fullStack); // [["HTML", "CSS", "JS", "React", "Redux"], ["Node", "Express", "MongoDB"]]
+// console.log(fullStack.length); // 2
+// console.log(fullStack[0]); // ["HTML", "CSS", "JS", "React", "Redux"]
+// console.log(fullStack[1]); // ["Node", "Express", "MongoDB"]
+
+// In JavaScript and other programming languages the key word if is to used check if a condition is true and to execute the block code. To create an if condition, we need if keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+//==================================================================================================//
+
+// const hamza = 100;
+
+// if (hamza > 100) {
+//   console.log("is greter then 100");
+// } else if (hamza < 100) {
+//   console.log("is greter then 100");
+// } else if (hamza == 100) {
+//   console.log(`is equel then ${hamza}`);
+// } else {
+//   console.log(hamza, "not found");
+// }
+
+// if else if else
+// let weather = 'sunny'
+// if (weather === 'rainy') {
+//   console.log('You need a rain coat.')
+// } else if (weather === 'cloudy') {
+//   console.log('It might be cold, you need a jacket.')
+// } else if (weather === 'sunny') {
+//   console.log('Go out freely.')
+// } else {
+//   console.log('No need for rain coat.')
+// }
+
+// switch (caseValue) {
+//     case 1:
+//       // code
+//       break
+//     case 2:
+//       // code
+//       break
+//     case 3:
+//     // code
+//     default:
+//     // code
+//   }
+
+// let weather = 'cloudy'
+// switch (weather) {
+//   case 'rainy':
+//     console.log('You need a rain coat.')
+//     break
+//   case 'cloudy':
+//     console.log('It might be cold, you need a jacket.')
+//     break
+//   case 'sunny':
+//     console.log('Go out freely.')
+//     break
+//   default:
+//     console.log(' No need for rain coat.')
+// }
+
+// Switch More Examples
+// let dayUserInput = prompt('What day is today ?')
+// let day = dayUserInput.toLowerCase()
+
+// switch (day) {
+//   case 'monday':
+//     console.log('Today is Monday')
+//     break
+//   case 'tuesday':
+//     console.log('Today is Tuesday')
+//     break
+//   case 'wednesday':
+//     console.log('Today is Wednesday')
+//     break
+//   case 'thursday':
+//     console.log('Today is Thursday')
+//     break
+//   case 'friday':
+//     console.log('Today is Friday')
+//     break
+//   case 'saturday':
+//     console.log('Today is Saturday')
+//     break
+//   case 'sunday':
+//     console.log('Today is Sunday')
+//     break
+//   default:
+//     console.log('It is not a week day.')
+// }
+
+// let number = prompt("enter number");
+// switch (true) {
+//   case number < 0:
+//     console.log("is negative");
+//     break;
+//   case number > 0:
+//     console.log("is positive");
+//     break;
+//   case number == 0:
+//     console.log("its negative");
+//     break;
+//   default:
+//     console.log("not a number");
+//     break;
+// }
+
+// Ternary Operators
+
+// let isRaining = true
+// isRaining
+//   ? console.log('You need a rain coat.')
+//   : console.log('No need for a rain coat.')
