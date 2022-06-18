@@ -128,3 +128,22 @@
 
 // const merge= arr1.concat(arr2)
 // console.log(merge);
+
+// const fruits = ["banana", "orange", "mango", "lemon"];
+
+// index = fruits.indexOf("mango");
+// console.log(index);
+// index == -1 ? console.log("nhi hai bhai khatam ho gya") : console.log("hai bhai mil jai ga");
+
+// const numbers = [1, 2, 3, 4, 5,"shayan"];
+// const arr = numbers.includes("shayan");
+// console.log(arr);
+// arr == true ? console.log("return true") : console.log("its fasle");
+
+// Array.isArray:To check if the data type is an array
+
+// const numbers = [1, 2, 3, 4, 5]
+// console.log(Array.isArray(numbers));
+
+// const numbers1 = "hamza"
+// console.log(Array.isArray(numbers1))
