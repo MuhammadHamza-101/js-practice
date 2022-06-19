@@ -309,3 +309,155 @@
 // isRaining
 //   ? console.log('You need a rain coat.')
 //   : console.log('No need for a rain coat.')
+
+// for (value = 0; value < 10; value++) {
+//   console.log(value);
+// }
+
+// let sum = 0
+// for (let i = 0; i < 101; i++) {
+//   sum += i
+// }
+
+// console.log(sum)
+
+// let total = 0
+// for (let i = 0; i < 101; i++) {
+//   if (i % 2 == 0) {
+//     total += i
+//   }
+// }
+// console.log(total)
+
+// const nums = [1, 2, 3, 4, 5];
+// const lastIndex = nums.length - 1;
+// const newArray = [];
+// for (let i = lastIndex; i >= 0; i--) {
+//   newArray.push(nums[i]);
+// }
+
+// console.log(newArray);
+
+// We use the while loop when we do not know how man iteration we go in advance.
+
+// let count = prompt("Enter a positive number: ");
+// while (count > 0) {
+//   console.log(count);
+//   count--;
+// }
+
+// . Object
+
+// const person = {};
+// console.log(person);
+// const angle = {
+//   width: 40,
+//   height: 50,
+// };
+// console.log(angle);
+
+// const person = {
+//   firstName: "Asabeneh",
+//   lastName: "Yetayeh",
+//   age: 250,
+//   country: "Finland",
+//   location: "karachi",
+//   city: "Helsinki",
+//   skills: [
+//     "HTML",
+//     "CSS",
+//     "JavaScript",
+//     "React",
+//     "Node",
+//     "MongoDB",
+//     "Python",
+//     "D3.js",
+//   ],
+//   isMarried: true,
+// };
+// person['location']=true
+// console.log(person["firstName"]);
+// console.log(person["lastName"]);
+// console.log(person["age"]);
+// console.log(person["location"]);
+// const copyPerson = Object.assign({}, person)
+// const keys = Object.keys(person);
+// const values = Object.values(person);
+// const entries = Object.entries(person);
+// console.log("data", keys);
+// console.log("data", values);
+// console.log("data", entries);
+// console.log(person.hasOwnProperty('firstName'))
+
+// A function can be declared or created in couple of ways:
+
+// Declaration function
+// Expression function
+// Anonymous function
+// Arrow function
+
+// Function Declaration
+// Let us see how to declare a function and how to call a function.
+
+// function firstFunction() {
+//   console.log("hamza is a good boy");
+// }
+// firstFunction();
+
+// function square() {
+//   let num = 2;
+//   let sq = num * num;
+//   console.log(sq);
+// }
+
+// square(); // 4
+
+// function without parameter
+// function addTwoNumbers() {
+//   let numOne = 10;
+//   let numTwo = 20;
+//   let sum = numOne + numTwo;
+
+//   console.log(sum);
+// }
+
+// addTwoNumbers();
+
+// function printFullName(a, b) {
+//   let firstName = "Asabeneh";
+//   let lastName = "Yetayeh";
+//   let space = " ";
+//   let fullName = a + space + b;
+//   console.log(fullName);
+// }
+
+// printFullName("hamza", "saleem");
+
+// function printFullName(a, b) {
+//   let firstName = "Asabeneh";
+//   let lastName = "Yetayeh";
+//   let space = " ";
+//   let fullName = a + space + b;
+//   console.log(fullName);
+// }
+
+// printFullName("hamza", "saleem");
+
+// const numbers = [1, 2, 3];
+// const countries = ["Finland", "Sweden", "Norway"];
+
+// for (const number of numbers) {
+//   console.log(number);
+// }
+
+// for (const country of countries) {
+//   console.log(country);
+// }
+
+// const fullStack = [
+//   ["HTML", "CSS", "JS", "React"],
+//   ["Node", "Express", "MongoDB","hamza"],
+// ];
+// for (const [first, second] of fullStack) {
+//   console.log(first, second);
+// }
